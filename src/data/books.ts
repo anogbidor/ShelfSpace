@@ -1,0 +1,373 @@
+// src/data/books.ts
+export const initialBooks = [
+  {
+    id: 1,
+    title: "Harry Potter and the Philosopher's Stone",
+    author: 'J.K. Rowling',
+    year: 1997,
+    genre: 'Fantasy',
+    cover:
+      'https://m.media-amazon.com/images/I/81m1s4wIPML._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.8,
+    pages: 223,
+    description:
+      "The first novel in the Harry Potter series and Rowling's debut novel.",
+    isFavorite: true,
+    link: 'https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X',
+  },
+  {
+    id: 2,
+    title: 'The Hunger Games',
+    author: 'Suzanne Collins',
+    year: 2008,
+    genre: 'Dystopian',
+    cover:
+      'https://m.media-amazon.com/images/I/61Lh7WtA2BL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.7,
+    pages: 374,
+    description:
+      'In a dystopian future, teenagers fight to the death in a televised event.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Hunger-Games-Book-1/dp/0439023483',
+  },
+  {
+    id: 3,
+    title: 'The Catcher in the Rye',
+    author: 'J.D. Salinger',
+    year: 1951,
+    genre: 'Literary Fiction',
+    cover:
+      'https://m.media-amazon.com/images/I/71OZY035QKL._AC_UF1000,1000_QL80_.jpg',
+    rating: 3.8,
+    pages: 234,
+    description:
+      'A teenager wanders New York City after being expelled from prep school.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Catcher-Rye-J-D-Salinger/dp/0316769487',
+  },
+  {
+    id: 4,
+    title: 'The Hobbit',
+    author: 'J.R.R. Tolkien',
+    year: 1937,
+    genre: 'Fantasy',
+    cover:
+      'https://m.media-amazon.com/images/I/710+HcoP38L._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.7,
+    pages: 310,
+    description:
+      'A hobbit embarks on an unexpected journey to reclaim a dwarf kingdom.',
+    isFavorite: true,
+    link: 'https://www.amazon.com/Hobbit-J-R-Tolkien/dp/054792822X',
+  },
+  {
+    id: 5,
+    title: 'The Lion, the Witch and the Wardrobe',
+    author: 'C.S. Lewis',
+    year: 1950,
+    genre: 'Fantasy',
+    cover:
+      'https://m.media-amazon.com/images/I/71LZl+gBxAL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.2,
+    pages: 172,
+    description: 'Four children discover a magical world through a wardrobe.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Lion-Witch-Wardrobe-Chronicles-Narnia/dp/0060234814',
+  },
+  {
+    id: 6,
+    title: 'The Lord of the Rings',
+    author: 'J.R.R. Tolkien',
+    year: 1954,
+    genre: 'Fantasy',
+    cover:
+      'https://m.media-amazon.com/images/I/71+TlX0j4IL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.9,
+    pages: 1178,
+    description:
+      'A hobbit carries a powerful ring to Mount Doom to destroy it.',
+    isFavorite: true,
+    link: 'https://www.amazon.com/Lord-Rings-J-R-Tolkien/dp/0544003411',
+  },
+  {
+    id: 7,
+    title: 'Pride and Prejudice',
+    author: 'Jane Austen',
+    year: 1813,
+    genre: 'Romance',
+    cover:
+      'https://m.media-amazon.com/images/I/81OthjkJBuL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.2,
+    pages: 279,
+    description:
+      'The turbulent relationship between Elizabeth Bennet and Mr. Darcy.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Pride-Prejudice-Jane-Austen/dp/0141439513',
+  },
+  {
+    id: 8,
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    year: 1925,
+    genre: 'Classic',
+    cover:
+      'https://m.media-amazon.com/images/I/81AFxK5FAiL._AC_UF1000,1000_QL80_.jpg',
+    rating: 3.9,
+    pages: 180,
+    description:
+      'A mysterious millionaire pursues his lost love in 1920s Long Island.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Great-Gatsby-F-Scott-Fitzgerald/dp/0743273567',
+  },
+  {
+    id: 9,
+    title: 'Moby-Dick',
+    author: 'Herman Melville',
+    year: 1851,
+    genre: 'Adventure',
+    cover:
+      'https://m.media-amazon.com/images/I/81gdJydDRmL._AC_UF1000,1000_QL80_.jpg',
+    rating: 3.5,
+    pages: 585,
+    description:
+      'Captain Ahab obsessively hunts the white whale that maimed him.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Moby-Dick-Herman-Melville/dp/1503280780',
+  },
+  {
+    id: 10,
+    title: '1984',
+    author: 'George Orwell',
+    year: 1949,
+    genre: 'Dystopian',
+    cover:
+      'https://m.media-amazon.com/images/I/81WSt4jKGiL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.6,
+    pages: 328,
+    description:
+      'A man rebels against a totalitarian regime that controls thought.',
+    isFavorite: true,
+    link: 'https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934',
+  },
+  {
+    id: 11,
+    title: 'To Kill a Mockingbird',
+    author: 'Harper Lee',
+    year: 1960,
+    genre: 'Classic',
+    cover:
+      'https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.7,
+    pages: 324,
+    description:
+      'A lawyer defends a black man accused of raping a white woman in Alabama.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Kill-Mockingbird-Harper-Lee/dp/0061120081',
+  },
+  {
+    id: 12,
+    title: 'The Diary of a Young Girl',
+    author: 'Anne Frank',
+    year: 1947,
+    genre: 'Biography',
+    cover:
+      'https://m.media-amazon.com/images/I/71QN2VHaHAL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.7,
+    pages: 283,
+    description:
+      'The diary of a Jewish girl hiding from the Nazis in Amsterdam.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Diary-Young-Girl-Anne-Frank/dp/0553296981',
+  },
+  {
+    id: 13,
+    title: 'The Book Thief',
+    author: 'Markus Zusak',
+    year: 2005,
+    genre: 'Historical Fiction',
+    cover:
+      'https://m.media-amazon.com/images/I/81qsfhP1MIL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.7,
+    pages: 552,
+    description:
+      'A young girl steals books in Nazi Germany, narrated by Death.',
+    isFavorite: true,
+    link: 'https://www.amazon.com/Book-Thief-Markus-Zusak/dp/0375842209',
+  },
+  {
+    id: 14,
+    title: 'The Alchemist',
+    author: 'Paulo Coelho',
+    year: 1988,
+    genre: 'Philosophical Fiction',
+    cover:
+      'https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_UF1000,1000_QL80_.jpg',
+    rating: 3.9,
+    pages: 208,
+    description:
+      'A shepherd boy travels to Egypt to find treasure from his dreams.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005',
+  },
+  {
+    id: 15,
+    title: 'Little Women',
+    author: 'Louisa May Alcott',
+    year: 1868,
+    genre: 'Coming-of-Age',
+    cover:
+      'https://m.media-amazon.com/images/I/81VL1RDtD9L._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.2,
+    pages: 759,
+    description:
+      'The lives of four sisters growing up during the American Civil War.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Little-Women-Louisa-May-Alcott/dp/0147514010',
+  },
+  {
+    id: 16,
+    title: 'Brave New World',
+    author: 'Aldous Huxley',
+    year: 1932,
+    genre: 'Science Fiction',
+    cover:
+      'https://m.media-amazon.com/images/I/71nM8XQOefL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.0,
+    pages: 288,
+    description: 'A dystopian novel about a scientifically engineered society.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523',
+  },
+  {
+    id: 17,
+    title: 'The Road',
+    author: 'Cormac McCarthy',
+    year: 2006,
+    genre: 'Post-Apocalyptic',
+    cover:
+      'https://m.media-amazon.com/images/I/81q5j+lgKIL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.0,
+    pages: 287,
+    description: 'A father and son journey through a post-apocalyptic America.',
+    isFavorite: true,
+    link: 'https://www.amazon.com/Road-Cormac-McCarthy/dp/0307387895',
+  },
+  {
+    id: 18,
+    title: 'The Kite Runner',
+    author: 'Khaled Hosseini',
+    year: 2003,
+    genre: 'Historical Fiction',
+    cover:
+      'https://m.media-amazon.com/images/I/81o1s+Z+JIL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.7,
+    pages: 371,
+    description: 'A story of friendship and redemption set in Afghanistan.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Kite-Runner-Khaled-Hosseini/dp/159463193X',
+  },
+  {
+    id: 19,
+    title: 'The Da Vinci Code',
+    author: 'Dan Brown',
+    year: 2003,
+    genre: 'Mystery',
+    cover:
+      'https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg',
+    rating: 3.9,
+    pages: 489,
+    description: 'A symbologist and cryptologist solve a murder in the Louvre.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Vinci-Code-Robert-Langdon/dp/0307474275',
+  },
+  {
+    id: 20,
+    title: 'The Girl with the Dragon Tattoo',
+    author: 'Stieg Larsson',
+    year: 2005,
+    genre: 'Crime',
+    cover:
+      'https://m.media-amazon.com/images/I/71IocR3qURL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.3,
+    pages: 465,
+    description:
+      'A journalist and hacker investigate a 40-year-old disappearance.',
+    isFavorite: true,
+    link: 'https://www.amazon.com/Girl-Dragon-Tattoo-Millennium-Trilogy/dp/0307949486',
+  },
+  {
+    id: 21,
+    title: 'Gone Girl',
+    author: 'Gillian Flynn',
+    year: 2012,
+    genre: 'Thriller',
+    cover:
+      'https://m.media-amazon.com/images/I/81I3xQykQLL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.1,
+    pages: 415,
+    description:
+      'A woman disappears on her fifth wedding anniversary under suspicious circumstances.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Gone-Girl-Gillian-Flynn/dp/0307588378',
+  },
+  {
+    id: 22,
+    title: 'The Silent Patient',
+    author: 'Alex Michaelides',
+    year: 2019,
+    genre: 'Psychological Thriller',
+    cover:
+      'https://m.media-amazon.com/images/I/71X3Osh3OIL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.5,
+    pages: 325,
+    description:
+      'A criminal psychotherapist tries to unravel why a woman shot her husband and then stopped speaking.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Silent-Patient-Alex-Michaelides/dp/1250301696',
+  },
+  {
+    id: 23,
+    title: 'Educated',
+    author: 'Tara Westover',
+    year: 2018,
+    genre: 'Memoir',
+    cover:
+      'https://m.media-amazon.com/images/I/71r3BKjWGUL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.7,
+    pages: 334,
+    description:
+      'A woman leaves her survivalist family and goes on to earn a PhD from Cambridge University.',
+    isFavorite: true,
+    link: 'https://www.amazon.com/Educated-Memoir-Tara-Westover/dp/0399590501',
+  },
+  {
+    id: 24,
+    title: 'Where the Crawdads Sing',
+    author: 'Delia Owens',
+    year: 2018,
+    genre: 'Literary Fiction',
+    cover:
+      'https://m.media-amazon.com/images/I/81O1oy0y9eL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.8,
+    pages: 368,
+    description:
+      'A murder mystery and coming-of-age story set in the marshes of North Carolina.',
+    isFavorite: false,
+    link: 'https://www.amazon.com/Where-Crawdads-Sing-Delia-Owens/dp/0735219095',
+  },
+  {
+    id: 25,
+    title: 'Project Hail Mary',
+    author: 'Andy Weir',
+    year: 2021,
+    genre: 'Science Fiction',
+    cover:
+      'https://m.media-amazon.com/images/I/71XS8x7ykIL._AC_UF1000,1000_QL80_.jpg',
+    rating: 4.8,
+    pages: 496,
+    description:
+      'A lone astronaut must save the earth from disaster in this science fiction adventure.',
+    isFavorite: true,
+    link: 'https://www.amazon.com/Project-Hail-Mary-Andy-Weir/dp/0593135202',
+  },
+]
