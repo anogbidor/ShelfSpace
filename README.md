@@ -51,8 +51,7 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-_Add a few screenshots or GIFs here to show off the UI._
+
 
 ---
 
@@ -65,7 +64,7 @@ You can deploy this app easily on:
 ---
 
 ## 🙌 Credits
-Built with 💙 by [Your Name] — open to feedback and contributions!
+Built with 💙 by Abraham — open to feedback and contributions!
 
 ---
 
