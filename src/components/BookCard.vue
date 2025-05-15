@@ -65,7 +65,7 @@ const props = defineProps({
 })
 
 const handleImageError = (event) => {
- event.target.src = 'https://via.placeholder.com/150x200?text=No+Cover'
+ event.target.src = 'https://dummyimage.com/150x200/cccccc/000000&text=No+Cover'
 }
 
 defineEmits(['toggle-favorite', 'remove-book', 'toggle-details'])
