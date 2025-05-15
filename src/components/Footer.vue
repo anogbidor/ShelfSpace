@@ -4,7 +4,7 @@
      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
        <!-- About Section -->
        <div class="text-center md:text-left">
-         <h3 class="text-lg font-semibold text-indigo-800 mb-4">About BookVue</h3> <!-- Darker indigo for headings -->
+         <h3 class="text-lg font-semibold text-indigo-800 mb-4">About Shelf Space</h3> <!-- Darker indigo for headings -->
          <p class="text-indigo-700 mb-4"> <!-- Lighter indigo for text -->
            A modern book collection manager built with Vue 3 and Tailwind CSS. 
            Organize your personal library with ease.
